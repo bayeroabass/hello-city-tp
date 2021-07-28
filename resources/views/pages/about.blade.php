@@ -7,6 +7,6 @@
 
     <p>Built with &hearts; by LES TEACHERS DU NET.</p>
 
-    <p><a href="/">Revenir sur la page d'acceuil</a></p>
+    <p><a href="{{ route('home')}}">Revenir sur la page d'acceuil</a></p>
 
 @stop
