@@ -1,9 +1,9 @@
 @extends('app')
 
 @section('content')
-    <img src="{{asset('/image/guinee.png')}}" alt="guinea flag">
-    <h1>Hello from Conakry !</h1>
+    <img src="{{asset('/image/guinee.png')}}" alt="guinea flag" class="mt-12 rounded shadow-md h-32">
+    <h1 class="mt-5 text-3xl sm:text-5xl font-semibold text-indigo-600">Hello from Conakry !</h1>
 
-    <p>It's currently {{date('h:i A')}}.</p>
+    <p class="text-lg text-gray-800">It's currently {{date('h:i A')}}.</p>
 
 @endsection

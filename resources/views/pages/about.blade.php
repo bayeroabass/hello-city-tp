@@ -4,10 +4,14 @@
 
 
 @section('content')
-    <img src="{{asset('/image/TDN.png')}}" alt="TDN_logo">
+    <img src="{{asset('/image/TDN.png')}}" alt="TDN_logo" class="rounded-full shadow-md">
 
-    <p>Built with &hearts; by LES TEACHERS DU NET.</p>
+    <h2 class="mb-5 text-gray-700">
+        Built with <span class="text-pink-500">&hearts; </span>by LES TEACHERS DU NET.
+    </h2>
 
-    <p><a href="{{ route('home')}}">Revenir sur la page d'acceuil</a></p>
+    <p>
+        <a href="{{ route('home')}}"class="text-indigo-500 hover:text-indigo-600 underline">Revenir sur la page d'acceuil</a>
+    </p>
 
 @stop
