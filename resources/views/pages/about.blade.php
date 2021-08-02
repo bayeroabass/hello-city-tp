@@ -4,6 +4,7 @@
 
 
 @section('content')
+    <img src="image/TDN.png" alt="TDN_logo">
 
     <p>Built with &hearts; by LES TEACHERS DU NET.</p>
 

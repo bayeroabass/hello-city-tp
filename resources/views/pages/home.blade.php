@@ -1,14 +1,9 @@
 @extends('app')
 
-@section('title')
-
-Hello City
-
-@endsection
-
 @section('content')
-        <h1>Hello from Conakry !</h1>
+    <img src="/image/guinee.png" alt="guinea flag">
+    <h1>Hello from Conakry !</h1>
 
-        <p>It's currently {{date('h:i A')}}.</p>
+    <p>It's currently {{date('h:i A')}}.</p>
 
 @endsection
